@@ -1,0 +1,24 @@
+.gameboard{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    background-image: url("imagens/fundoMenu.png");
+    background-size: 1500px;
+    border-width: 10px; 
+    border-style: solid; 
+    border-color:  rgb(255, 140, 0); 
+}
+
+.botaoIniciar{
+    width: 500px;
+    height: 150px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: relative;
+    top: 400px;
+    left: 150px;
+    background-color: rgb(255, 132, 0, 90%);
+}
