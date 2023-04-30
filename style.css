@@ -8,7 +8,102 @@
     background-size: 1500px;
     border-width: 10px; 
     border-style: solid; 
-    border-color:  rgb(255, 140, 0); 
+    border-color:  rgb(255, 140, 0);
+    display: none;
+}
+
+.selecaoDecks{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    background-image: url("imagens/fundoMenu.png");
+    background-size: 1500px;
+    border-width: 10px; 
+    border-style: solid; 
+    border-color:  rgb(255, 140, 0);
+    display: inline;
+
+
+}
+
+.escolhaOSeuDeck{
+    width: 700px;
+    height: 150px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    background-color: rgb(255, 132, 0, 90%);
+}
+
+.yudiasDeck{
+    width: 300px;
+    height: 400px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    background-image: url(imagens/yudias.png);
+    background-size: 800px;
+    background-position: -160px -10px;
+    background-color: rgb(255, 132, 0, 90%);
+}
+
+.yudiasNome{
+    width: 300px;
+    height: 80px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    font-family: fonteMenu;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(255, 132, 0, 90%);
+    position: absolute;
+    top: 260px;
+    left: 40px;
+}
+
+.yugaNome{
+    width: 300px;
+    height: 80px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    font-family: fonteMenu;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(255, 132, 0, 90%);
+    position: absolute;
+    top: 260px;
+    right: 40px;
+}
+
+.yugaDeck{
+    width: 300px;
+    height: 400px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position:absolute;
+    top: 350px;
+    right: 40px;
+    background-image: url(imagens/yuga.png);
+    background-size: 800px;
+    background-position: -120px -120px;
+    background-color: rgb(255, 132, 0, 90%);
 }
 
 .botaoIniciar{
@@ -21,4 +116,33 @@
     top: 400px;
     left: 150px;
     background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    color: #000000;
+
 }
+
+.botaoOpcoes{
+    width: 500px;
+    height: 150px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: relative;
+    top: 400px;
+    left: 150px;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+@font-face {
+    font-family: fonteMenu;
+    src: url(fontes/Matrix-Bold.ttf);
+ }

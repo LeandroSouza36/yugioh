@@ -227,3 +227,58 @@ let vacuaAnnihilation = {
     atk: "nenhum",
     def: "nenhum",
 }
+
+
+
+var cliqueBotaoIniciar = document.querySelector(".botaoIniciar")
+
+var cliqueBotaoOpcoes = document.querySelector(".botaoOpcoes")
+
+var gameboard = document.querySelector(".gameboard")
+
+var selecaoDecks = document.querySelector(".selecaoDecks")
+
+var yudiasDeck = document.querySelector(".yudiasDeck")
+
+var yugaDeck = document.querySelector(".yugaDeck")
+
+function BotaoMouseOver(){   
+    this.style.backgroundColor = "rgb(109, 60, 0, 90%)";
+    this.style.borderColor = "rgb(255, 132, 0)"
+    this.style.color = "white"
+}
+
+function BotaoMouseOut(){ 
+    this.style.backgroundColor = "rgb(255, 132, 0, 90%)";
+    this.style.borderColor = "rgb(109, 60, 0)"
+    this.style.color = "black"
+}
+
+function BotaoMouseClick(){
+
+    gameboard.style.display = "none";
+    selecaoDecks.style.display = "inline";
+}
+
+cliqueBotaoIniciar.addEventListener("mouseover", BotaoMouseOver)
+
+cliqueBotaoIniciar.addEventListener("mouseout", BotaoMouseOut)
+
+cliqueBotaoIniciar.addEventListener("click", BotaoMouseClick)
+
+cliqueBotaoOpcoes.addEventListener("mouseover", BotaoMouseOver)
+
+cliqueBotaoOpcoes.addEventListener("mouseout", BotaoMouseOut)
+
+yudiasDeck.addEventListener("mouseover", BotaoMouseOver)
+
+yudiasDeck.addEventListener("mouseout", BotaoMouseOut)
+
+yugaDeck.addEventListener("mouseover", BotaoMouseOver)
+
+yugaDeck.addEventListener("mouseout", BotaoMouseOut)
+
+
+
+
+
