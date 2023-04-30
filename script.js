@@ -102,7 +102,7 @@ let transamuEphyrai = {
     tipo2: "galaxy",
     atributo: "LIGHT",
     nivel: 4,
-    texto: "[REQUIREMENT] If your opponent has a monster on their field, send the top card of your Deck to the Graveyard. [EFFECT] 1 face-up "Transamu Rainac" on your field gains 1000 ATK until the end of this turn.",
+    texto: "[REQUIREMENT] If your opponent has a monster on their field, send the top card of your Deck to the Graveyard. [EFFECT] 1 face-up 'Transamu Rainac' on your field gains 1000 ATK until the end of this turn.",
     arquetipo: "Transamu",
     atk: 1200,
     def: 500,
