@@ -242,6 +242,16 @@ var yudiasDeck = document.querySelector(".yudiasDeck")
 
 var yugaDeck = document.querySelector(".yugaDeck")
 
+var painelEscolherVerVoltar = document.querySelector(".painelEscolherVerVoltar")
+
+var escolhaOSeuDeck = document.querySelector(".escolhaOSeuDeck")
+
+var escolherDeck = document.querySelector(".escolherDeck")
+
+var verDeck = document.querySelector(".verDeck")
+
+var voltarParaSelecaoDeck = document.querySelector(".voltarParaSelecaoDeck")
+
 function BotaoMouseOver(){   
     this.style.backgroundColor = "rgb(109, 60, 0, 90%)";
     this.style.borderColor = "rgb(255, 132, 0)"
@@ -260,6 +270,13 @@ function BotaoMouseClick(){
     selecaoDecks.style.display = "inline";
 }
 
+function ClickSelecaoDeck(){
+
+    escolhaOSeuDeck.style.display = "none";
+
+    painelEscolherVerVoltar.style.display = "inline";
+}
+
 cliqueBotaoIniciar.addEventListener("mouseover", BotaoMouseOver)
 
 cliqueBotaoIniciar.addEventListener("mouseout", BotaoMouseOut)
@@ -270,13 +287,29 @@ cliqueBotaoOpcoes.addEventListener("mouseover", BotaoMouseOver)
 
 cliqueBotaoOpcoes.addEventListener("mouseout", BotaoMouseOut)
 
+escolherDeck.addEventListener("mouseover", BotaoMouseOver)
+
+escolherDeck.addEventListener("mouseout", BotaoMouseOut)
+
+verDeck.addEventListener("mouseover", BotaoMouseOver)
+
+verDeck.addEventListener("mouseout", BotaoMouseOut)
+
+voltarParaSelecaoDeck.addEventListener("mouseover", BotaoMouseOver)
+
+voltarParaSelecaoDeck.addEventListener("mouseout", BotaoMouseOut)
+
 yudiasDeck.addEventListener("mouseover", BotaoMouseOver)
 
 yudiasDeck.addEventListener("mouseout", BotaoMouseOut)
 
+yudiasDeck.addEventListener("click", ClickSelecaoDeck )
+
 yugaDeck.addEventListener("mouseover", BotaoMouseOver)
 
 yugaDeck.addEventListener("mouseout", BotaoMouseOut)
+
+yugaDeck.addEventListener("click", ClickSelecaoDeck )
 
 
 

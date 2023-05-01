@@ -1,0 +1,7 @@
+quando seleciona o personagem
+
+- some : escolha o seu Deck
+- opcoes :
+    - escolher Deck
+    - ver Deck
+    - voltar
