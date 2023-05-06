@@ -195,6 +195,442 @@
     color: #000000;
 }
 
+.espacoCard1{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard2{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 0px;
+    left: 3.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard3{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 0px;
+    left: 7.0cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard4{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 0px;
+    left: 10.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard5{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 0px;
+    left: 14cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard6{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 0px;
+    left: 17.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard7{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 4.9cm;
+    left: 0px;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard8{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 4.9cm;
+    left: 3.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard9{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 4.9cm;
+    left: 7.0cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard10{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 4.9cm;
+    left: 10.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard11{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 4.9cm;
+    left: 14cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard12{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 4.9cm;
+    left: 17.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard13{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 9.8cm;
+    left: 0px;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard14{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 9.8cm;
+    left: 3.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard15{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 9.8cm;
+    left: 7.0cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard16{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 9.8cm;
+    left: 10.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard17{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 9.8cm;
+    left: 14cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard18{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 9.8cm;
+    left: 17.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard19{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 14.7cm;
+    left: 0px;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard20{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 14.7cm;
+    left: 3.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard21{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 14.7cm;
+    left: 7.0cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard22{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 14.7cm;
+    left: 10.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard23{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 14.7cm;
+    left: 14cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.espacoCard24{
+    width: 2.9cm;
+    height: 4.3cm;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    position: absolute;
+    top: 14.7cm;
+    left: 17.5cm;
+    background-color: rgb(255, 132, 0, 90%);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.painelVerCardsDeck{
+    display: none;
+}
+
 @font-face {
     font-family: fonteMenu;
     src: url(fontes/Matrix-Bold.ttf);

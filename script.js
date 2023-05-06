@@ -1,3 +1,5 @@
+// CARDS
+
 let cosmoTitan = {
     nome: "Cosmo Titan",
     tipo: "normal",
@@ -228,7 +230,53 @@ let vacuaAnnihilation = {
     def: "nenhum",
 }
 
+// DECKS
 
+var deckYudias = [];
+deckYudias.push(cosmoTitan)
+deckYudias.push(cosmoTitan)
+deckYudias.push(cosmoTitan)
+deckYudias.push(galacticaOblivion)
+deckYudias.push(galacticaOblivion)
+deckYudias.push(galacticaOblivion)
+deckYudias.push(heavenGancel)
+deckYudias.push(heavenGancel)
+deckYudias.push(transamuRainac)
+deckYudias.push(transamuRainac)
+deckYudias.push(transamuRainac)
+deckYudias.push(galacticaAmnesia)
+deckYudias.push(satellitePegasus)
+deckYudias.push(satellitePegasus)
+deckYudias.push(satellitePegasus)
+deckYudias.push(strangeTraveler)
+deckYudias.push(transamuCraione)
+deckYudias.push(transamuCraione)
+deckYudias.push(transamuEphyrai)
+deckYudias.push(transamuEphyrai)
+deckYudias.push(transamuEphyrai)
+deckYudias.push(vanishingHeliacalRiser)
+deckYudias.push(vanishingHeliacalRiser)
+deckYudias.push(vanishingHeliacalRiser)
+deckYudias.push(galacticaForce)
+deckYudias.push(galacticaForce)
+deckYudias.push(meteorCharge)
+deckYudias.push(meteorCharge)
+deckYudias.push(meteorCharge)
+deckYudias.push(secretOrder)
+deckYudias.push(secretOrder)
+deckYudias.push(secretOrder)
+deckYudias.push(shipOfSevenTreasures)
+deckYudias.push(shipOfSevenTreasures)
+deckYudias.push(shipOfSevenTreasures)
+deckYudias.push(universtorm)
+deckYudias.push(universtorm)
+deckYudias.push(universtorm)
+deckYudias.push(crisisAtTheSacredTower)
+deckYudias.push(crisisAtTheSacredTower)
+deckYudias.push(crisisAtTheSacredTower)
+deckYudias.push(hardefenseMission)
+deckYudias.push(transamuArrive)
+deckYudias.push(vacuaAnnihilation)
 
 var cliqueBotaoIniciar = document.querySelector(".botaoIniciar")
 
@@ -250,7 +298,11 @@ var escolherDeck = document.querySelector(".escolherDeck")
 
 var verDeck = document.querySelector(".verDeck")
 
+var painelDecks = document.querySelector(".painelDecks")
+
 var voltarParaSelecaoDeck = document.querySelector(".voltarParaSelecaoDeck")
+
+var painelVerCardsDeck = document.querySelector(".painelVerCardsDeck")
 
 function BotaoMouseOver(){   
     this.style.backgroundColor = "rgb(109, 60, 0, 90%)";
@@ -277,6 +329,15 @@ function ClickSelecaoDeck(){
     painelEscolherVerVoltar.style.display = "inline";
 }
 
+function BotaoVerDeckClick(){
+    gameboard.style.display = "inline";
+    selecaoDecks.style.display = "none";
+    painelVerCardsDeck.style.display = "inline";
+    cliqueBotaoIniciar.style.display = "none";
+    cliqueBotaoOpcoes.style.display = "none";
+
+}
+
 cliqueBotaoIniciar.addEventListener("mouseover", BotaoMouseOver)
 
 cliqueBotaoIniciar.addEventListener("mouseout", BotaoMouseOut)
@@ -294,6 +355,8 @@ escolherDeck.addEventListener("mouseout", BotaoMouseOut)
 verDeck.addEventListener("mouseover", BotaoMouseOver)
 
 verDeck.addEventListener("mouseout", BotaoMouseOut)
+
+verDeck.addEventListener("click", BotaoVerDeckClick)
 
 voltarParaSelecaoDeck.addEventListener("mouseover", BotaoMouseOver)
 
