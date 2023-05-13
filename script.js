@@ -10,6 +10,7 @@ let cosmoTitan = {
     arquetipo: 0,
     atk: 2300,
     def: 1800,
+    imagem: "imagens/cards/CosmoTitan-RDSD01-JP-C.png"
 }
 
 let galacticaOblivion = {
@@ -22,6 +23,7 @@ let galacticaOblivion = {
     arquetipo: "Galactica",
     atk: 2500,
     def: 2500,
+    imagem: "imagens/cards/GalacticaOblivion-RDORP1-JP-ORR.png"
 }
 
 
@@ -36,6 +38,7 @@ let heavenGancel = {
     arquetipo: "",
     atk: 2100,
     def: 400,
+    imagem: "imagens/cards/HeavenGancel-RDSD01-JP-C.png"
 }
 
 let transamuRainac = {
@@ -48,6 +51,7 @@ let transamuRainac = {
     arquetipo: "Transamu",
     atk: 1600,
     def: 0,
+    imagem: "imagens/cards/TransamuRainac-RDSD01-JP-C.png"
 }
 
 let galacticaAmnesia = {
@@ -60,6 +64,7 @@ let galacticaAmnesia = {
     arquetipo: "Galactica",
     atk: 1600,
     def: 1500,
+    imagem: "imagens/cards/GalacticaAmnesia-RDGRD1-JP-C.png"
 }
 
 let strangeTraveler = {
@@ -72,6 +77,7 @@ let strangeTraveler = {
     arquetipo: "",
     atk: 1100,
     def: 200,
+    imagem: "imagens/cards/StrangeTraveler-RDGRD1-JP-C.png"
 }
 
 let satellitePegasus = {
@@ -84,6 +90,8 @@ let satellitePegasus = {
     arquetipo: 0,
     atk: 1300,
     def: 600,
+    imagem: "imagens/cards/SatellitePegasus-RDKP09-JP-UR.png"
+    
 }
 
 let transamuCraione = {
@@ -96,6 +104,7 @@ let transamuCraione = {
     arquetipo: "Transamu",
     atk: 500,
     def: 500,
+    imagem: "imagens/cards/TransamuCraione-RDGRD1-JP-C.png"
 }
 
 let transamuEphyrai = {
@@ -108,6 +117,7 @@ let transamuEphyrai = {
     arquetipo: "Transamu",
     atk: 1200,
     def: 500,
+    imagem: "imagens/cards/TransamuEphyrai-RDSD01-JP-C.png"
 }
 
 let vanishingHeliacalRiser = {
@@ -120,6 +130,7 @@ let vanishingHeliacalRiser = {
     arquetipo: "",
     atk: 2400,
     def: 1500,
+    imagem: "imagens/cards/VanishingHeliacalRiser-RDSD01-JP-C.png"
 }
 
 let meteorCharge = {
@@ -132,6 +143,7 @@ let meteorCharge = {
     arquetipo: "",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/300px-MeteorCharge-RDSD05-JP-C.png"
 }
 
 let galacticaForce = {
@@ -144,6 +156,7 @@ let galacticaForce = {
     arquetipo: "Galactica",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/GalacticaForce-RDGRD1-JP-C.png"
 }
 
 let secretOrder = {
@@ -156,6 +169,7 @@ let secretOrder = {
     arquetipo: "",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/SecretOrder-RDLGP1-JP-ScR.png"
 }
 
 let shipOfSevenTreasures= {
@@ -168,6 +182,7 @@ let shipOfSevenTreasures= {
     arquetipo: "nenhum",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/ShipofSevenTreasures-RDLGP1-JP-ScR.png"
 }
 
 let universtorm = {
@@ -180,6 +195,7 @@ let universtorm = {
     arquetipo: "nenhum",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/Universtorm-RDSD05-JP-C.png"
 }
 
 let crisisAtTheSacredTower = {
@@ -192,6 +208,7 @@ let crisisAtTheSacredTower = {
     arquetipo: "nenhum",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/300px-CrisisattheSacredTower-RDKP09-JP-UR.png"
 }
 
 let hardefenseMission = {
@@ -204,6 +221,7 @@ let hardefenseMission = {
     arquetipo: "nenhum",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/300px-HardefenseMission-RDKP07-JP-SR.png"
 }
 
 let transamuArrive = {
@@ -216,6 +234,7 @@ let transamuArrive = {
     arquetipo: "Transamu",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/TransamuArrive-RDGRD1-JP-C.png"
 }
 
 let vacuaAnnihilation = {
@@ -228,6 +247,7 @@ let vacuaAnnihilation = {
     arquetipo: "nenhum",
     atk: "nenhum",
     def: "nenhum",
+    imagem: "imagens/cards/TransamuArrive-RDGRD1-JP-C.png"
 }
 
 // DECKS
@@ -375,6 +395,24 @@ yugaDeck.addEventListener("mouseout", BotaoMouseOut)
 yugaDeck.addEventListener("click", ClickSelecaoDeck )
 
 
+
+function verImagemCard(){
+
+
+    for (var i = 1; i < deckYudias.length; i++) {
+        console.log(deckYudias[i]);
+
+        var verImagemCard = document.querySelector(".espacoCard"+i)
+        verImagemCard.style.backgroundImage = 'url('+deckYudias[i].imagem+')'
+        verImagemCard.style.backgroundSize = "2.9cm"
+      }
+
+
+    
+
+}
+
+verImagemCard()
 
 
 
