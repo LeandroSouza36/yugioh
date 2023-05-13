@@ -1,11 +1,13 @@
 .gameboard{
-    width: 800px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 7%;
-    left: 30%;
+    top: 0%;
+    left: 0%;
     background-image: url("imagens/fundoMenu.png");
-    background-size: 1500px;
+    background-size: 2500px;
+    background-position: center;
+    background-repeat: no-repeat;
     border-width: 10px; 
     border-style: solid; 
     border-color:  rgb(255, 140, 0);
@@ -165,15 +167,16 @@
     border-width: 5px; 
     border-style: solid; 
     border-color:  rgb(109, 60, 0);
-    position: relative;
-    top: 400px;
-    left: 150px;
     background-color: rgb(255, 132, 0, 90%);
     font-family: fonteMenu;
     font-size: 80px;
     text-align: center;
     padding-top: 15px;
     color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -183,9 +186,6 @@
     border-width: 5px; 
     border-style: solid; 
     border-color:  rgb(109, 60, 0);
-    position: relative;
-    top: 400px;
-    left: 150px;
     background-color: rgb(255, 132, 0, 90%);
     font-family: fonteMenu;
     font-size: 80px;
@@ -193,6 +193,10 @@
     padding-top: 15px;
     margin-top: 5px;
     color: #000000;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .espacoCard1{
