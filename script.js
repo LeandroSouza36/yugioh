@@ -324,6 +324,8 @@ var voltarParaSelecaoDeck = document.querySelector(".voltarParaSelecaoDeck")
 
 var painelVerCardsDeck = document.querySelector(".painelVerCardsDeck")
 
+var voltarParaSelecaoDeDecks = document.querySelector(".voltarParaSelecaoDeDecks")
+
 function BotaoMouseOver(){   
     this.style.backgroundColor = "rgb(109, 60, 0, 90%)";
     this.style.borderColor = "rgb(255, 132, 0)"
@@ -394,7 +396,11 @@ yugaDeck.addEventListener("mouseout", BotaoMouseOut)
 
 yugaDeck.addEventListener("click", ClickSelecaoDeck )
 
+voltarParaSelecaoDeDecks.addEventListener("mouseover", BotaoMouseOver)
 
+voltarParaSelecaoDeDecks.addEventListener("mouseout", BotaoMouseOut)
+
+voltarParaSelecaoDeDecks.addEventListener("click", BotaoMouseClick)
 
 function verImagemCard(){
 
@@ -413,6 +419,37 @@ function verImagemCard(){
 }
 
 verImagemCard()
+
+
+
+
+// APARECER TELA CARREGANDO ATÉ A PAGINA ESTIVER 100% CARREGADA
+
+window.onload = function() {
+    var loadingElement = document.getElementById('loading');
+  
+    function hideLoading() {
+      loadingElement.style.display = 'none';
+    }
+  
+    hideLoading(); // Esconder a mensagem de carregamento inicialmente
+  
+    // Mostrar a mensagem de carregamento até que a página esteja totalmente carregada
+    var isPageLoaded = false;
+    setTimeout(function() {
+      if (!isPageLoaded) {
+        loadingElement.style.display = 'block';
+      }
+    }, 500); // Exibir a mensagem após 500ms
+  
+    // Evento disparado quando a página estiver completamente carregada
+    window.addEventListener('load', function() {
+      isPageLoaded = true;
+      hideLoading();
+    });
+  };
+  
+
 
 
 

@@ -14,6 +14,24 @@
     display: inline;
 }
 
+.voltarParaSelecaoDeDecks{
+    width: 300px;
+    height: 150px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color:  rgb(109, 60, 0);
+    font-family: fonteMenu;
+    font-size: 80px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(255, 132, 0, 90%);
+    display: inline;
+    position: absolute;
+    top: 100px;
+    left: 91%;
+    transform: translate(-50%, -50%);
+}
+
 .selecaoDecks{
     width: 100%;
     height: 100%;
@@ -310,7 +328,7 @@
     color: #000000;
 }
 
-.espacoCard43{
+.espacoCard13{
     width: 2.9cm;
     height: 4.3cm;
     border-width: 5px; 
@@ -328,7 +346,7 @@
     color: #000000;
 }
 
-.espacoCard44{
+.espacoCard14{
     width: 2.9cm;
     height: 4.3cm;
     border-width: 5px; 
@@ -346,7 +364,7 @@
     color: #000000;
 }
 
-.espacoCard45{
+.espacoCard15{
     width: 2.9cm;
     height: 4.3cm;
     border-width: 5px; 
@@ -418,7 +436,7 @@
     color: #000000;
 }
 
-.espacoCard13{
+.espacoCard43{
     width: 2.9cm;
     height: 4.3cm;
     border-width: 5px; 
@@ -436,7 +454,7 @@
     color: #000000;
 }
 
-.espacoCard14{
+.espacoCard44{
     width: 2.9cm;
     height: 4.3cm;
     border-width: 5px; 
@@ -454,7 +472,7 @@
     color: #000000;
 }
 
-.espacoCard15{
+.espacoCard45{
     width: 2.9cm;
     height: 4.3cm;
     border-width: 5px; 
